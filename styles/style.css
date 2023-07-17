@@ -1,0 +1,364 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Lobster&family=Open+Sans:wght@500&family=Poppins:wght@500&family=Work+Sans:wght@400;500&display=swap');
+
+body{
+    /* margin: 0 100px; */
+    /* box-sizing: border-box; */
+    font-family: 'Work Sans', sans-serif;
+    background-color: rgba(255, 144, 14, 0.1);
+}
+.header-container{
+   
+   
+}
+.nav-container{
+    display: flex;
+    justify-content: space-between;
+    
+    align-items: center;
+    margin: 30px 50px;
+}
+.nav-meno ul{
+    display: flex;
+    text-transform: lowercase;
+    padding: 5px 10px;
+    border-radius: 5px;
+    gap: 40px;
+    list-style: none;
+}
+
+
+/* header banner styles */
+
+.header-banner-container{
+    text-align: center;
+    
+}
+.banner-title{
+    font-size: 30px;
+    margin: 10px 0;
+    text-align: center;
+    /* font-size: 34px; */
+    margin-left: 30px;
+    font-weight: 700;
+}
+.banner-description{
+    width: 60%;
+    text-align: center;
+    margin-left: 156px;
+    font-size: 15px;
+    color: rgb(112, 108, 108);
+    padding: 0 20px;
+    
+    /* font-size: 16px; */
+    /* font-weight: 400;
+    line-height: 26px; */
+}
+.btn-primary{
+    border: none;
+    outline: none;
+    background: #ff900e;
+    color: white;
+    padding: 20px 40px;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 17px;
+    cursor: pointer;
+    transition: all 0.2s ease-in-out;
+    margin: 20px 0;
+}
+.btn-primary:hover {
+    background: #e27b06fa;
+  }
+  
+.banner-png{
+
+    width: 100%;
+    margin: 40px 0;
+    
+}
+/* main section is start here  */
+.second-section{
+    display: flex;
+    gap: 25px;
+    padding: 50px 0;
+    margin-left: 78px;
+
+   
+    /* margin-top: 35px;
+    margin-bottom: 35px; */
+}
+
+.section-img{
+    display: grid;
+    grid-template-columns: repeat(2,0.5fr);
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-left: 10px;
+    margin-top: 18px;
+}
+.section-img img{
+    width: 170px;
+    
+}
+/* second-section-text */
+.second-section-text{
+padding-top: 90px;
+}
+.second-section-text h1 {
+    /* border-left: 5px solid #ff900e; */
+    padding-left: 15px;
+  }
+
+.features {
+    color: #ff900e;
+  }
+  .of-our{
+    color: #131313;;
+  }
+  .Quick-list{
+    color: #727272;
+  }
+  .second-section-text p{
+    width: 50%;
+    color: #8b8585;
+    font-size: 12px;
+    font: 500px;
+  }
+
+
+  /* third section start  */
+
+  .third-section{
+    margin-top: 32px;
+  }
+  /* .third-section texts  */
+ .third-section-container{
+    display: flex;
+    margin-left: 80px;
+    gap: 60px;
+ }
+
+ .third-section-container h3{
+    margin-left: 20px;
+ }
+
+  .third-section-title{
+    color: #131313;
+    margin-left: 17px;
+    padding-left: 13px;
+    border-left: 5px solid #ff900e;
+  }
+
+  .third-section-description{
+    margin-left: 17px;
+    margin-bottom: 20px;
+    width: 350px;
+    color: #8b8585;
+    font-size: 12px;
+  }
+ 
+  /* architect-image */
+  .architect-image{
+    position: relative;
+  }
+  .architect-image img{
+    height: 570px;
+  }
+  .experience {
+    position: absolute;
+    text-align: center;
+    height: 50px;
+    width: 120px;
+    padding: 25px;
+    text-align: center;
+    bottom: -1432px;
+    margin-left: 0 auto;
+    left: 470px;
+  
+   
+  }
+  /* third section end  */
+
+  /* forth section start  */
+  .forth-section{
+    margin-top: 30px;
+  }
+  .fact-title{
+    font-size: 45px;
+    font-weight: 700;
+    color: #131313;
+    text-align: center;
+  }
+  .fact-description{
+    width: 430px;
+    text-align: center;
+    margin: 0 auto;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+  }
+  .fact-container{
+    margin-top: 20px;
+    display: grid;
+   grid-template-columns: 1fr 1fr 1fr 1fr;
+    /* align-items: center; */
+    gap: 40px;
+    /* margin-left: 30px;
+    margin-right: 30px; */
+    
+  }
+  .fact-item{
+    border: 3px solid #ff900e;
+    /* width: 170px;
+    height: 150px; */
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    transition: all 0.2s ease-in-out;
+   
+  }
+  .fact-item:hover{
+    background-color: #ff900e;
+    
+    
+  }
+  /* skills  */
+  .skill-section{
+    margin-top: 40px;
+  }
+  .skills{
+    text-align: center;
+  }
+  /* sponsor-section */
+.sponsor-section{
+    margin-top: 45px;
+}
+.sponsor-title{
+    text-align: center;
+}
+.sponsor-description{
+  
+    width: 430px;
+    text-align: center;
+    margin: 0 auto;
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400
+
+   
+}
+.sponsor-container{
+    margin-top: 20px;
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr 1fr; */
+    grid-template-columns: repeat(5,1fr);
+    gap: 18px;
+}
+/* footer section  */
+.footer-section{
+    margin-top: 65px;
+}
+.footer-text{
+    text-align: center;
+    font-size: 12px;
+    font-weight: 600px;
+    padding: 12px;
+    background-color: #eedeab;
+    outline: none;
+    border:none;
+
+}
+
+
+
+/*.............
+ Responsiv styles
+  .......... */
+
+@media screen and (max-width:576px) {
+.nav-container{
+    flex-direction: column;
+    
+}
+.nav-meno ul{
+    flex-direction: column;
+    text-align: center;
+   
+}
+.banner-description{
+    width: 90%;
+    margin: 0 0;
+}
+/* first section end  */
+
+/* .second-section here  */
+.second-section{
+    
+    flex-direction: column;
+
+}
+.section-img{
+    width: 50%;
+    display: block;
+}
+.section-img img{
+    width: 200px;
+    margin-top: 10px;
+}
+/* second-section end  */
+ 
+  /* third section start    */
+  .third-section-container{
+  flex-direction: column;
+  width: 70%;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+    
+  }
+  .architect-image img{
+
+     width: 100%;
+     height: 570px; 
+     margin: 10px 20px 10px;
+  }
+
+ .experience{
+    display: none;
+ }
+ /* forth section  */
+ .fact-container{
+    grid-template-columns: repeat(1,1fr);
+ }
+ .fact-item{
+    width: 70%;
+    margin: 0 auto;
+    
+ }
+ .fact-description{
+    width: 100%;
+ }
+ /* .sponsor */
+ .sponsor-container{
+    grid-template-columns: 1fr;
+ }
+ .sponsor-description{
+    width: 90%;
+    /* text-align: center; */
+    /* margin: 0 auto; */
+ }
+ .sponsor-container img{
+    width: 50%;
+    margin-top: 18px;
+    margin: 0 auto;
+ }
+ .footer-section{
+
+ }
+ .footer-text{
+    width: 70%;
+    margin: 0 auto;
+ }
+ 
+}
